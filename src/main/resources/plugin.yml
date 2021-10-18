@@ -1,0 +1,13 @@
+name: McSquidGame
+version: ${project.version}
+main: me.mrlukey676.mcsquidgame.McSquidGame
+api-version: 1.17
+authors: [ MrLukey676 ]
+commands:
+  redlight:
+    description: Used in the game "Red Light Green Light"!
+    aliases: [rl]
+  greenlight:
+    description: Used in the game "Red Light Green Light"!
+    aliases: [gl]
+
