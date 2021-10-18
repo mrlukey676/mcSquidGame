@@ -7,7 +7,7 @@ public final class McSquidGame extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        // Plugin startup logic.
         System.out.println("[SQUIDGAME] Successfully loaded MC Squid Game Plugin.");
         getCommand("redlight").setExecutor(new redlight());
         getCommand("greenlight").setExecutor(new greenlight());
